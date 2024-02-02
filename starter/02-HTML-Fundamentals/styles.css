@@ -1,0 +1,118 @@
+body {
+  font-family: sans-serif;
+  color: rgb(4, 4, 4);
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+h1,
+h2,
+h3 {
+  color: rgba(16, 152, 171);
+}
+
+h1 {
+  font-size: 26px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: center;
+}
+
+li {
+  font-size: 20px;
+}
+
+#footer {
+  font-size: 14px;
+}
+
+/*header p {
+  font-style: italic;
+}*/
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.post-authors {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.post-list {
+  list-style: none;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+nav a:link {
+  font-size: 100px;
+}
+/*li:first-child {
+  font-weight: bold;
+}
+
+article p:last-child {
+  color: red;
+}*/
+
+/*styling hyperlinks*/
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a:active {
+  color: black;
+}
+
+/*Resolving Conflicts
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: yellow;
+}
+.text {
+  color: green;
+}
+footer p {
+  color: blue !important;
+}
+*/

@@ -5,10 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <header>
+  <header class="main-header">
+    <h1>📘 The Code Magazine</h1>
     <nav>
       <a href="blog.html">Blog</a>
       <a href="blog.html">FlexBox</a>
@@ -17,11 +19,11 @@
   </header>
   <article>
     <header>
-      <h1>📘 The Code Magazine</h1>
+
 
       <h2>The Basic Language of the Web: HTML</h2>
       <img src="img/laura-jones.jpg" alt="laura-jones" height="50" width="50" />
-      <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+      <p id="author">Posted by Laura Jones on Monday, June 21st 2027</p>
       <img src="img/post-img.jpg" alt="computer" width="500px" />
     </header>
 
@@ -51,10 +53,10 @@
     </ol>
     <p>
       You can learn more at the
-      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs.</a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs.</a>
     </p>
 
-    <h4>Why should you learn HTML?</h4>
+    <h3>Why should you learn HTML?</h3>
     <p>
       There are countless reasons for learning the fundamental language of the
       web. Here are 5 of them:
@@ -73,19 +75,32 @@
     <p>Hopefully you learned something new here. See you next time!</p>
   </article>
   <aside>
-    <strong>Related Post</strong>
+    <h4><strong>Related Post</strong></h4>
     <ul>
-      <li><img src="img/related-1.jpg" alt="Man Typing" height="75" width 75><a href="#">How to Learn Web
-          Development</a></li>
-      <li><img src="img/related-2.jpg" alt="Man Typing" height="75" width 75><a href="#">The Unknown Powers of CSS</a>
+      <li class="post-list"><img src="img/related-1.jpg" alt="Man Typing" height="75" width 75><a href="#">How to Learn
+          Web
+          Development</a>
+        <p class="post-authors">Jon Smith</p>
       </li>
-      <li><img src="img/related-3.jpg" alt="Man Typing" height="75" width 75><a href="#">Why JS is Awesome</a></li>
-      <p>By Matilda</p>
+
+      <li class="post-list"><img src="img/related-2.jpg" alt="Man Typing" height="75" width 75><a href="#">The Unknown
+          Powers of CSS</a>
+        <p class="post-authors">Jon Smith</p>
+      </li>
+
+      <li class="post-list"><img src="img/related-3.jpg" alt="Man Typing" height="75" width 75><a href="#">Why JS is
+          Awesome</a>
+        <p class="post-authors">Jon Smith</p>
+      </li>
+
     </ul>
   </aside>
 
   <footer>
-    Copyright &copy; nickscheible 2027
+    <p id="copyright" class="copyright text">
+      Copyright &copy; nickscheible 2027
+    </p>
+
   </footer>
 </body>
 
